@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "janusqa",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/tsc -w"
+  }
 }
