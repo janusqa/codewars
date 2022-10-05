@@ -24,15 +24,6 @@ const encrypt = (str: string): string => {
     ss[0] = ss[0].charCodeAt(0).toString();
     if (ss.length > 2) [ss[1], ss[ss.length - 1]] = [ss[ss.length - 1], ss[1]];
     return ss.join('');
-    // const ss = str.split('');
-    // return ss
-    //     .map((char, index) => {
-    //         if (index === 0) return char.charCodeAt(0).toString();
-    //         else if (index === 1) return ss[ss.length - 1];
-    //         else if (index === ss.length - 1) return ss[1];
-    //         return char;
-    //     })
-    //     .join('');
 };
 
 // Example
