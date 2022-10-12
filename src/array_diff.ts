@@ -18,3 +18,5 @@ describe('Array Diff', () => {
         );
     });
 });
+
+export default arrayDiff;

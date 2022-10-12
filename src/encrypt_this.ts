@@ -53,3 +53,5 @@ describe('Encrypt this', function () {
         );
     });
 });
+
+export default encryptThis;

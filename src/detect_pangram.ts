@@ -22,3 +22,5 @@ describe('isPangram', function () {
         assert.strictEqual(isPangram('This is not a pangram.'), false);
     });
 });
+
+export default isPangram;

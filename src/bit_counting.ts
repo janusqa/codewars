@@ -26,3 +26,5 @@ describe('bit counting', function () {
         assert.equal(countBits(10), 2);
     });
 });
+
+export default countBits;

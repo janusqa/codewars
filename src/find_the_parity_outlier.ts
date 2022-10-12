@@ -28,3 +28,5 @@ describe('Find The Parity Outlier', function () {
         assert.equal(findOutlier([1, 1, 0, 1, 1]), 0);
     });
 });
+
+export default findOutlier;

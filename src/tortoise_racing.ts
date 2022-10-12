@@ -29,3 +29,5 @@ describe('Tortise racing', function () {
         testing(720, 850, 37, [0, 17, 4]);
     });
 });
+
+export default race;

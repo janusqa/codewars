@@ -49,3 +49,5 @@ describe('Roman Numeral Decoder', function () {
         assert.equal(solution('MDCLXVI'), 1666);
     });
 });
+
+export default solution;

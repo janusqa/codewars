@@ -33,3 +33,5 @@ describe('Isograms', function () {
         assert.equal(isIsogram(''), true, 'an empty string is a valid isogram');
     });
 });
+
+export default isIsogram;

@@ -21,3 +21,5 @@ describe('Reverse Words', function () {
         );
     });
 });
+
+export default reverseWords;

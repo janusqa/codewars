@@ -42,3 +42,5 @@ describe('valid braces', function () {
         assert.strictEqual(validBraces('}}]]))}])'), false);
     });
 });
+
+export default validBraces;

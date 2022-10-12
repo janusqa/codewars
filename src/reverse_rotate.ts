@@ -61,3 +61,5 @@ describe('reverse or rotate', function () {
         testing(revRot(s, 5), '330479108928157');
     });
 });
+
+export default revRot;

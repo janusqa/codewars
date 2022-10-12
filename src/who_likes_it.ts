@@ -30,3 +30,5 @@ describe('Who likes it', function () {
         );
     });
 });
+
+export default likes;
